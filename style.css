@@ -1,0 +1,11 @@
+.doc-nav {
+  overflow: scroll;
+  height: 100%;
+  position: fixed;
+  width: 15rem;
+}
+
+.docu-main {
+  position: relative;
+  margin-left: 16rem;
+}
