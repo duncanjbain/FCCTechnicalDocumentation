@@ -1,3 +1,15 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
 .doc-nav {
   overflow: scroll;
   height: 100%;
@@ -8,4 +20,5 @@
 .docu-main {
   position: relative;
   margin-left: 16rem;
+  max-width: 960px;
 }
