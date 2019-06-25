@@ -53,3 +53,26 @@ h1 {
   border: 1px solid black;
   border-radius: 5px;
 }
+
+@media only screen and (max-width: 815px) {
+  /* For mobile phones: */
+
+
+  .doc-nav {
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 150px;
+    border: none;
+    z-index: 1;
+    border-bottom: 2px solid;
+  }
+
+  .main-wrapper {
+    margin-left: 0;
+  }
+}
