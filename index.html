@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="style.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>FCC Technical Documentation</title>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap" rel="stylesheet">
   <link href="prism.css" rel="stylesheet" />
 
 </head>
@@ -14,7 +14,6 @@
 <body>
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   <script src="prism.js"></script>
-  <div class="site-wrapper">
     <nav class="doc-nav" id="navbar">
       <header class="navbar-header">
         <h1>Flutter Documentation</h1>
@@ -29,10 +28,24 @@
 
       </ul>
     </nav>
-
+    <div class="main-wrapper">
     <main class="docu-main" id="main-doc">
-
+      <section class="main-section-header">
+        <header>
       <h1>Introduction to Widgets</h1>
+      </header>
+      <p>Flutter widgets are built using a modern framework that takes inspiration from React. The central idea is that
+        you build your UI out of widgets. Widgets describe what their view should look like given their current
+        configuration and state. When a widget’s state changes, the widget rebuilds its description, which the framework
+        diffs against the previous description in order to determine the minimal changes needed in the underlying render
+        tree to transition from one state to the next.
+      </p>
+      <aside>
+        <p>
+            Note: If you would like to become better acquainted with Flutter by diving into some code, check out Basic
+            layout codelab, Building Layouts in Flutter, and Adding Interactivity to Your Flutter App.
+        </p>
+      </aside>
       <h3>Contents</h3>
       <ul>
         <li><a href="hello_world">Hello world</a></li>
@@ -41,6 +54,7 @@
         <li><a href="hello_world">Handling gestures</a></li>
         <li><a href="hello_world">Changing widgets in response to input</a></li>
       </ul>
+      </section>
 
       <section class="main-section" id="Hello_world">
         <header>
@@ -462,7 +476,7 @@
       </section>
 
     </main>
-  </div>
+    </div>
 </body>
 
 </html>

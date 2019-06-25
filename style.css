@@ -6,19 +6,50 @@ html {
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
   margin: 0;
+  text-align: left;
+  color: #4A4A4A;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.doc-nav h1 {
+  font-size: 1.5rem;
 }
 
 .doc-nav {
   overflow: scroll;
   height: 100%;
   position: fixed;
-  width: 15rem;
+  width: 17rem;
+}
+
+.main-wrapper {
+  margin-left: 16rem;
 }
 
 .docu-main {
   position: relative;
-  margin-left: 16rem;
-  max-width: 960px;
+  margin-left: auto;
+  width: 100%;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  margin-right: 2rem;
+}
+
+.docu-main aside {
+  background-color: #d1ecf1;
+  color: #0c5460;
+  padding: 1rem 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid black;
+  border-radius: 5px;
 }
